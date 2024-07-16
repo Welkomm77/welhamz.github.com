@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.backgroun{
+  background-color: #9a0000;
+  background-size: cover;
+  height:147px ;
+  
+}
+.navbar{
+	background: #212121;
+	margin: 0;
+	padding: 20px 20px;
+	border-radius: 50px;
+}
+.awe{
+  
+}
+ 
+.logo{
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+ 
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ 
+.tombol{
+	display: none;
+	color: white;
+	font-size: 14pt;			
+}
+ 
+.tombol:hover{
+	cursor: pointer;
+}
+ 
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
+}
+ 
+.menu li{
+	padding-left: 0;
+	margin-right: 10px;
+}
+ 
+ .logo{
+   background-color: #9a0000;
+   border-radius: 50px;
+   padding: 4px;
+ }
+.menu li a{
+	padding:10px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+@media screen and (max-width: 768px) {
+	.menu {
+		display: none;
+	}
+ 
+	.menu.aktif{
+		display:inline-block;
+		position: absolute;
+		top: 64px;
+		background-color: rgb(63,63,63, 0.5);
+		padding: 50px 20px;
+		right: 0;
+		left: 0;
+		border-radius: 30px;
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+	}
+ 
+	.menu.aktif li a{
+		padding: 10px;
+		display: inline-block !important;
+	}
+ 
+	.tombol {
+		display: block;
+	}
+}
+
+.bagin2{
+  height: 20px;
+}
+
+.bagin2 img{
+  height: 706px;
+  width: 424px;
+}
+
+.text1{
+  text-align: center;
+  color: #ffff;
+}
+
+.jhg{
+  background-color: #000000;
+  height: 7px;
+}
+.jhgf{
+  background-color: #000000;
+  height: 7px;
+}
+.if{
+  background-color:#636363;
+}
+.if h3{
+  text-align: center;
+}
+
+.we{
+  background-color: #000000;
+  height: 7px;
+}
+
+.tyu img{
+  height: 190px;
+  width:190px ;
+  
+}
+
+.potoes{
+  padding:4px;
+}
+
+.Data{
+  background-color:#c00b0b;
+  border-radius:50px;
+}
+
+.peroduk{
+  text-align:center;
+}
+
+.ip{
+  background-color:#000000;
+  height:7px;
+}
+
+.gh{
+  height:850px;
+  background-color:#4b4b4b;
+  
+}
+
+.gh1{
+  background-color:#0052f6;
+  border-radius:50px;
+  text-align:center;
+  padding:20px;
+  color:#ffffff;
+}
+.toko2{
+  color:#c90000;
+  font-weight: bold;
+}
+ 
+ .gh1 li{
+   list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+ }
+ 
+ .gh1 a:hover{
+   background-color:#f60000;
+ }
+ 
+.tetang0 p{
+  text-align:center;
+  padding:30px;
+}
+
+.warana1{
+  color:#ffffff;
+}
+
+.wea li{
+  list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+.h1p{
+  font-weight: bold;
+  font-size: 5000;
+}
+
+.ioy{
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  border-radius: 50px;
+}
